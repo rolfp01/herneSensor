@@ -65,7 +65,7 @@ typedef struct __attribute__((packed)) {
   uint8_t wifichancycle; // wifi channel switch cycle [seconds/100]
   uint8_t blescantime;   // BLE scan cycle duration [seconds]
   uint8_t blescan;       // 0=disabled, 1=enabled
-  uint8_t wifiscan = 0;      // 0=disabled, 1=enabled
+  uint8_t wifiscan;      // 0=disabled, 1=enabled
   uint8_t wifiant;       // 0=internal, 1=external (for LoPy/LoPy4)
   uint8_t rgblum;        // RGB Led luminosity (0..100%)
   uint8_t payloadmask;   // bitswitches for payload data
